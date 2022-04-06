@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '../components/HelloWorld'
-//import q10 from '../components/q10'
-//import q3 from '../components/q3'
-//import q5 from '../components/q5'
-//import q6 from '../components/q6'
-//import q3 from '../components/q3'
+//import ques10 from '../components/ques10'
+//import queS9 from '../components/queS9'
+import queS8 from '../components/queS8'
+//import ques6 from '../components/ques6'
+//import queS9 from '../components/queS9'
+
  Vue.use(Router)
 const routes = [
     {
@@ -14,31 +15,26 @@ const routes = [
         component:HelloWorld
     },
     //{
-   // path:'/q10',
-    //name:'hlo',
-    //component:q10
-    //},
-    //{
-        //path:'/q3',
-        //name:'Home',
-        //component:q3
+    //    path:'/ques10',
+    //    name:'Homel',
+    //    component:ques10  
     //}
-    //{
-        //path:'/q5',
-        //name:'hii',
-        //component:q5
-    //},
-   // {
-     //   path:'/q6',
-      //  name:'Hloo',
-       // component:q6
+     //{
+      //   path:'/queS9',
+      //   name:'Homels',
+      //   component:queS9
    // },
-  // {
-   // path:'/q3',
-    //name:'amrutha',
-    //component:q3
-//},
-    
+    {
+       path:'/queS8',
+        name:'Homelsd',
+        component:queS8
+    },
+    //{
+     //   path:'/ques6',
+      //  name:'Homelsi',
+       // component:ques6
+   //},
+
 ]
 let router = new Router({routes})
 export default router
