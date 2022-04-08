@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '../components/HelloWorld'
-//import ques10 from '../components/ques10'
-//import queS9 from '../components/queS9'
-import queS8 from '../components/queS8'
-//import ques6 from '../components/ques6'
-//import queS9 from '../components/queS9'
+import question5 from '../components/question5'
+import question7 from '../components/question7'
+import question4 from '../components/question4'
+import question3 from '..components/question3'
+
 
  Vue.use(Router)
 const routes = [
@@ -14,26 +14,26 @@ const routes = [
         name:'Home',
         component:HelloWorld
     },
-    //{
-    //    path:'/ques10',
-    //    name:'Homel',
-    //    component:ques10  
-    //}
-     //{
-      //   path:'/queS9',
-      //   name:'Homels',
-      //   component:queS9
-   // },
     {
-       path:'/queS8',
-        name:'Homelsd',
-        component:queS8
+    path:'/question5',
+    name:'Hom',
+    component:question5
     },
-    //{
-     //   path:'/ques6',
-      //  name:'Homelsi',
-       // component:ques6
-   //},
+  {
+    path:'/question7',
+    name:'Homl',
+    component:question7
+  },
+   {
+    path:'/question4',
+   name:'Homm',
+    component:question4
+   },
+   {
+    path:'/question3',
+    name:'sample',
+    component:question3
+  },
 
 ]
 let router = new Router({routes})
